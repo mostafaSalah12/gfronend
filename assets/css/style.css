@@ -1,0 +1,90 @@
+/*
+@Author: ThemeMascot
+@URL: http://ThemeMascot.com
+
+This is the file where you can add your custom styles to change the look of the
+theme. But don't modify style-main.css file.
+
+*/
+
+/* Your custom css codes start here: */
+.menuzord-menu {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    margin-top: 12px;
+}
+.menuzord-menu > li > a {
+    padding: 8px 10px;
+    margin: 0px 3px;
+    border-radius: 5px;
+}
+.menuzord-brand img {
+    max-height: 90px;
+}
+.mt-20 {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.ml-120 {
+    margin-top: 30px;
+}
+@media(max-width: 992px){
+    .ml-120 {
+        margin-top: 0px;
+    } 
+}
+
+.product .product-thumb {
+    position: relative;
+    min-height: 215px;
+    padding-top: 20px;
+}
+
+.car-detail-custom{
+    margin-bottom: 190px;
+    margin-top: 0px;
+}
+
+@media(max-width: 992px){
+    .car-detail-custom{
+        margin-bottom: 30px;
+        margin-top: 300px;
+    }
+}
+
+@media(max-width: 415px){
+    .car-detail-custom{
+        margin-bottom: 30px;
+        margin-top: 450px;
+    }
+}
+
+@media(max-width: 375px){
+    .car-detail-custom{
+        margin-bottom: 30px;
+        margin-top: 400px;
+    }
+}
+
+@media(max-width: 320px){
+    .car-detail-custom{
+        margin-bottom: 30px;
+        margin-top: 350px;
+    }
+}
+
+.facebook-login {
+    background: #3b5998;
+}
+.facebook-login:hover {
+    background: #2b4273;
+}
+.google-login {
+    background: #cf4333;
+}
+.google-login:hover {
+    background: #a73629;
+}
